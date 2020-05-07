@@ -1,0 +1,487 @@
+
+<style>#wrapper 
+ }
+ ul.social-network {
+	float:left;
+	list-style:none;
+	margin:0;
+	
+}
+
+ul.social-network li {
+	display:inline;
+}
+ul.social-network li a:hover {
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+ 
+ .fa {
+ 
+  font-size: 15px;
+  width: 30px;
+  text-align: center;
+}
+.fa:hover {
+    background-color: #133fec;
+    border-radius: 2px;
+}
+
+.fa-facebook {
+
+  color: white;
+}
+.fa-twitter {
+
+  color: white;
+}
+.fa-instagram{
+	color: white;
+}
+.fa-youtube {
+  color: white;
+}
+.fa-youtube{
+	color: white;
+}
+.fa-whatsapp{
+	color: white;
+}
+.container-fluid
+{
+	background-color: #316dc3;
+	
+}
+.carousel-inner img {
+      width: 100%;
+      height: 80%;
+  }
+  
+.nav-container-fluid {
+	background-color: #f7f8fa;
+	height: 70px;
+}
+.navbar-header{
+	text-align: center;
+}
+.btn-group{
+	
+	
+	 border-radius: 30px; 
+	 padding: 6px;
+	
+} 
+    .btn-group {
+ 
+  border: none;
+  color: white;
+  
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  padding-bottom: 45px;
+}
+.button1 {
+  background-color: #f7f8fa; 
+  color: black; 
+  border: 2px solid #f7f8fa;
+}
+.button1:hover {
+  background-color: #316dc3;
+  color: white;
+  border-radius: 30px;
+ 
+}
+.container-sm{
+	background-color: #2b5fcb;
+	height: 30px;
+	padding-bottom: 10px;
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+	padding-top: 3px;
+}
+
+.intro-container-fluid {
+	background-color: #f7f8fa;
+	text-align: center;
+	
+	
+}
+.wwed-container-fluid {
+	background-color: #f7f8fa;
+	text-align: center;
+	
+	
+	
+}
+
+
+.center {
+  margin: auto;
+  width: 70%;
+  padding: 10px;
+  text-align:justify;
+}
+
+.counter-container{
+	background-color: #2755e9;
+    	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+.counter {
+    background-color:#2755e9;
+    padding: 2px 0;
+    border-radius: 5px;
+    margin: auto;
+    height: 200px;
+    width: 70%;
+   
+  
+}
+
+.count-title {
+    font-size: 39px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+    color: white;
+    font-family: 'Merriweather', serif;
+	font-weight: 600px;
+}
+
+.count-text {
+    font-size: 19px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+    color: white;
+    font-family: 'Merriweather', serif;
+	font-weight: 600px;
+}
+
+
+
+.icon-container{
+	
+	
+	 margin: auto;
+  width: 80%;
+  padding: 10px;
+  text-align:justify;
+}
+
+.wwad{
+	background-color: #fff;
+    padding: 20px 0;
+    border-radius: 5px;
+    margin: auto;
+    height: 200px;
+    width: 100%;
+    font-family: 'Merriweather', serif;
+	font-weight: 600px;
+
+	
+}
+.icon-container-text{
+	font-size: 20px;
+	color: #316dc3;
+	font-weight: bold;
+    font-family: 'Merriweather', serif;
+	padding-top: 40px;
+}
+
+.maup{
+	font-size: 24px;
+	font-family: 'Merriweather', serif;
+	font-weight: 600px;
+	color: #316dc3;
+	
+}
+.maupl{
+	font-size : 30px;
+	font-weight: 600px;
+	color: #316dc3;
+}
+
+.smalldiv{
+	
+	width: 300px;
+	height: 50px;
+	background-color: #f7f8fa;
+	padding: 10px;
+	margin: 5px;
+	font-size: 20px;
+	font-family: 'Merriweather', serif;
+	font-weight: 600px;
+	color: #316dc3;
+	}
+.image-container-fluid {
+	text-align: center;	
+}
+
+.image-container {
+  
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+  text-align:center;
+  
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 300%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.image-container:hover .image {
+  opacity: 0.3;
+}
+
+.image-container:hover .middle {
+  opacity: 1;
+}
+
+
+
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #f7f8fa;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #313131;
+  text-align: left;
+  padding: 12px 14px;
+  text-decoration: none;
+  font-size: 13px;
+    font-weight: 600;
+  
+}
+
+/* Add an active class to highlight the current page */
+.active {
+  background-color: #316dc3;
+  color: white;
+  border-radius: 30px;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+/* Dropdown container - needed to position the dropdown content */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Style the dropdown button to fit inside the topnav */
+.dropdown .dropbtn {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f7fdf4;
+  color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a dark background on topnav links and the dropdown button on hover */
+.topnav a:hover, .dropdown:hover .dropbtn {
+   background-color: #316dc3;
+  color: black;
+  border-radius: 30px;
+}
+
+/* Add a grey background to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+  
+}
+
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+.dropdown:hover .dropdown-content {
+  display: block;
+ 
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    height: 400px;
+    text-align: left;
+  }
+}
+
+
+ </style>
